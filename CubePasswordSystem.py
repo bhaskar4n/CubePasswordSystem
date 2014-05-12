@@ -1,5 +1,5 @@
 import wx
-import hashlib
+import hashlib             # cube password system(cps)
 import bz2
 import os
 import base64
