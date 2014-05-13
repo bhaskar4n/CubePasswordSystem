@@ -14,5 +14,5 @@ note: currently i have implemented four sides
 
 coding in progress...
 
-<img src="https://www.dropbox.com/s/y5hogkf520ggny9/first1.jpg"/>
+
 
