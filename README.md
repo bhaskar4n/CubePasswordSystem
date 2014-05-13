@@ -25,10 +25,13 @@ following side2, side3, side4 are same like the side 1.
 
 <img src="https://github.com/bhaskar4n/CubePasswordSystem/blob/master/screen%20shots/cpss/side1.jpg?raw=true"/>
 ##### side 2 of the cps
+
 <img src="https://github.com/bhaskar4n/CubePasswordSystem/raw/aa4e8ff6d7205c4ec4e81bbd8ed09a21521ec41d/screen%20shots/cpss/side2.jpg?raw=true"/>
 ##### side 3 of the cps
+
 <img src="https://github.com/bhaskar4n/CubePasswordSystem/raw/aa4e8ff6d7205c4ec4e81bbd8ed09a21521ec41d/screen%20shots/cpss/side3.jpg?raw=true"/>
 ##### side 4 of the cps
+
 <img src="https://github.com/bhaskar4n/CubePasswordSystem/raw/aa4e8ff6d7205c4ec4e81bbd8ed09a21521ec41d/screen%20shots/cpss/side4.jpg?raw=true"/>
 
 
