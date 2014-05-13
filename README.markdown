@@ -10,7 +10,7 @@ requirements:
 python version 2.7
 wxpython 2.7
 
-note: currently i have implemented four sides
+note: currently i have created four sides
 
 coding in progress...
 
