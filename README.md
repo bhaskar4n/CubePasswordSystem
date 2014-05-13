@@ -11,9 +11,9 @@ requirements:python version 2.7, wxpython version 2.7
 #### note:
 <ul>
 <li>currently i have created four sides that works fine.</li> 
-<li> have implemented md5 encryption for passwords.</li>
-<li>bas64 encode system for data encryption.</li> 
-<li>coding in progress for another two sides and encryption algorithms for data encryption</li>
+<li>i have implemented md5 encryption for passwords.</li>
+<li>i have implemented bas64 encode system for data encryption.</li> 
+<li>coding in progress for another two sides, encryption algorithms for data encryption and some additional features</li>
 </ul>
 
 
