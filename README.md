@@ -10,7 +10,7 @@ requirements:
 python version 2.7
 wxpython 2.7
 
-note: currently i have created four sides that works fine
+note: currently i have created four sides that works fine with base64 encode system
 
 coding in progress for another two sides and encryption algorithms 
 
