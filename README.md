@@ -8,13 +8,12 @@ i created my own password system to save my data like passwords and other stuffs
 
 requirements:python version 2.7, wxpython version 2.7
 
-note: currently i have created four sides that works fine. 
+#### note
 
-      i have implemented md5 encryption for passwords
-      
-      bas64 encode system for data encryption 
-      
-      coding in progress for another two sides and encryption algorithms for data encryption
+currently i have created four sides that works fine. 
+i have implemented md5 encryption for passwords
+bas64 encode system for data encryption 
+coding in progress for another two sides and encryption algorithms for data encryption
       
 
 
