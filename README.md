@@ -10,9 +10,9 @@ requirements:
 python version 2.7
 wxpython 2.7
 
-note: currently i have created four sides
+note: currently i have created four sides that works fine
 
-coding in progress...
+coding in progress for another two sides and encryption algorithms 
 
 ### some screen shots of cube password system UI
 ##### side 1 of the cps
