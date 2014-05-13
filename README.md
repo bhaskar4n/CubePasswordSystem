@@ -19,7 +19,8 @@ requirements:python version 2.7, wxpython version 2.7
 
 ### some screen shots of cube password system UI
 ##### side 1 of the cps
-In the first side i have entered three letters as a password in different boxes. Next time while retrieving the data you must enter the password in correct boxes.<br>
+In the first side i have entered three letters as a password in different boxes. Next time while retrieving the data you must enter the password in correct boxes.
+
 following side2, side3, side4 are same like the side 1. 
 <img src="https://github.com/bhaskar4n/CubePasswordSystem/blob/master/screen%20shots/cpss/side1.jpg?raw=true"/>
 ##### side 2 of the cps
