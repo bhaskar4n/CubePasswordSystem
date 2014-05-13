@@ -8,13 +8,13 @@ i created my own password system to save my data like passwords and other stuffs
 
 requirements:python version 2.7, wxpython version 2.7
 
-#### note
-
-currently i have created four sides that works fine. 
-i have implemented md5 encryption for passwords
-bas64 encode system for data encryption 
-coding in progress for another two sides and encryption algorithms for data encryption
-      
+#### note:
+<ul>
+<li>currently i have created four sides that works fine.</li> 
+<li> have implemented md5 encryption for passwords.</li>
+<li>bas64 encode system for data encryption.</li> 
+<li>coding in progress for another two sides and encryption algorithms for data encryption</li>
+</ul>
 
 
 ### some screen shots of cube password system UI
