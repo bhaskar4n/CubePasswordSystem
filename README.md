@@ -16,13 +16,6 @@ requirements:python version 2.7, wxpython version 2.7
 <li>coding in progress for another two sides, encryption algorithms for data encryption and some additional features</li>
 </ul>
 
- [ ] working 
-  - [ ] another two sides
-  - [ ] encryption algorithms
-  - [ ] additional features
-
-
-
 ### some screen shots of cube password system UI
 ##### side 1 of the cps
 In the first side i have entered three letters as a password in different boxes. Next time while retrieving the data you must enter the password in correct boxes.
