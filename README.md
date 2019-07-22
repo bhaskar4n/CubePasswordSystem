@@ -6,6 +6,10 @@ horizons
 #-153 -> chandrayaan2 id number</br>
 #for more information refer https://ssd.jpl.nasa.gov/?horizons</br>
 #for more information about the horizons class refer</br> https://astroquery.readthedocs.io/en/latest/api/astroquery.jplhorizons.HorizonsClass.html#astroquery.jplhorizons.HorizonsClass
+
+requirements: astroquery https://github.com/astropy/astroquery</br>
+
+
 ```
 example-1
 enter target body id number(integer): -153
