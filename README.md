@@ -12,7 +12,7 @@ requirements: astroquery https://github.com/astropy/astroquery</br>
 
 ```
 example-1
-enter target body id number(integer): -153
+enter target body name(string) or id number(integer): chandrayaan 
 enter observer location id number(integer): 218
 please wait...
 ...................................................................................................................
