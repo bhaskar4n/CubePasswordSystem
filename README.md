@@ -32,7 +32,7 @@ velocity wrt sun     :  32.73906 km/s
 ...................................................................................................................
 example: 2
 python horizons.py delta delta_rate r r_rate vel_obs vel_sun lighttime
-enter target body id number(integer): -153
+enter target body name(string) or id number(integer): chandrayaan
 enter observer location id number(integer): 218
 enter id type: majorbody
 start date:2019-07-22 22:51
