@@ -18,7 +18,7 @@ a = str(d)[:-10]
 
 def stock():
 	
-	target_body = raw_input('enter target body id number(integer): ')
+	target_body = raw_input('enter target body name(string) or id number(integer): ')
 	observer_location = raw_input('enter observer location id number(integer): ')
 	#id_type = raw_input('enter id type: ')
 	print "please wait..."
@@ -43,7 +43,7 @@ def stock():
 	print(eph.columns)
 
 def custom():
-	target_body = raw_input('enter target body id number(integer): ')
+	target_body = raw_input('enter target body name(string) or id number(integer): ')
 	observer_location = raw_input('enter observer location id number(integer): ')
 	id_type = raw_input('enter id type: ')
 	a = raw_input('start date:')
