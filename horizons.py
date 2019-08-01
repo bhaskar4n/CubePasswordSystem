@@ -11,39 +11,56 @@ from astroquery.jplhorizons import Horizons
 from time import gmtime, strftime
 import sys
 from datetime import datetime, timedelta
-t = datetime.today()
+t = datetime.today() + timedelta(seconds=60)
 b = str(t)[:-10]
 d = datetime.today() - timedelta(seconds=60)
 a = str(d)[:-10]
 
+#print 'a',a
+#print 'b',b
+
 def stock():
 	
-	target_body = raw_input('enter target body name(string) or id number(integer): ')
-	observer_location = raw_input('enter observer location id number(integer): ')
+	#target_body = raw_input('enter target body id number(integer): ')
+	#observer_location = raw_input('enter observer location id number(integer): ')
 	#id_type = raw_input('enter id type: ')
 	print "please wait..."
-	print '...................................................................................................................'
-	obj = Horizons(id=target_body,location=observer_location,epochs={'start':a,'stop':b,'step':'1m'},id_type='majorbody')
+	#print '...................................................................................................................'
+	obj = Horizons(id='chandrayaan',location='500',epochs={'start':a,'stop':b,'step':'1m'},id_type='majorbody')
+	obj1 = Horizons(id='chandrayaan',location='@301',epochs={'start':a,'stop':b,'step':'1m'},id_type='majorbody')
 	eph = obj.ephemerides()
+	eph1 = obj1.ephemerides()
 
 	s = ['datetime_str','delta','r','lighttime','vel_obs','vel_sun']
 
-	for i in range(len(eph)):
-		#print eph[s][0][0]
-		print eph[s][i][0][5:]
-		print 'distance wrt observer: ',eph[s][i][1],'A.U / ',eph[s][i][1]*1.496e+8,'km'  
+	#for i in range(len(eph)):
+	#print eph[s][0][0]
+	i = 2
+	print eph[s][i][0][5:]
+	print 'distance wrt earth:',eph[s][i][1],'A.U / ',eph[s][i][1]*1.496e+8,'km \n'  
 		#print 'distance wrt observer: ',eph[s][i][1]*1.496e+8,'km'
-		print 'distance wrt sun     :',eph[s][i][2] ,'A.U / ',eph[s][i][2] *1.496e+8,'km'  
+		#print 'distance wrt moon     :',eph1[s][i][2] ,'A.U / ',eph1[s][i][2] *1.496e+8,'km'  
 		#print 'distance wrt sun     :',eph[s][i][2] *1.496e+8,'km' 
-		print '1-way lighttime	     : ',eph[s][i][3],'min' 
-		print 'velocity wrt observer: ',eph[s][i][4],'km/s' 
-		print 'velocity wrt sun     : ',eph[s][i][5],'km/s'
-		print '...................................................................................................................'
+	print '1-way lighttime wrt to earth	 : ',eph[s][i][3],'min \n' 
+	print 'velocity wrt earth: ',eph[s][i][4],'km/s \n' 
+		#print 'velocity wrt moon     : ',eph1[s][i][5],'km/s'
+    #print '...................................................................................................................'
 
-	print(eph.columns)
+	#for i in range(len(eph1)):
+		#print eph[s][0][0]
+	#print eph1[s][i][0][5:]
+	print 'distance wrt moon:',eph1[s][i][1],'A.U / ',eph1[s][i][1]*1.496e+8,'km \n'  
+		#print 'distance wrt observer: ',eph[s][i][1]*1.496e+8,'km'
+		#print 'distance wrt moon     :',eph1[s][i][2] ,'A.U / ',eph1[s][i][2] *1.496e+8,'km'  
+		#print 'distance wrt sun     :',eph[s][i][2] *1.496e+8,'km' 
+	print '1-way lighttime wrt to moon:',eph1[s][i][3],'min \n' 
+	print 'velocity wrt moon:',eph1[s][i][4],'km/s \n' 
+		#print 'velocity wrt moon     : ',eph1[s][i][5],'km/s'
+	#print '...................................................................................................................'
+#
 
 def custom():
-	target_body = raw_input('enter target body name(string) or id number(integer): ')
+	target_body = raw_input('enter target body id number(integer): ')
 	observer_location = raw_input('enter observer location id number(integer): ')
 	id_type = raw_input('enter id type: ')
 	a = raw_input('start date:')
@@ -64,4 +81,3 @@ if len(sys.argv)>1:
 	custom()
 else:
 	stock()
-
