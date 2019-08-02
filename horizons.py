@@ -1,23 +1,32 @@
-#observatory location table codes: https://en.wikipedia.org/wiki/List_of_observatory_codes
-#218 -> Hyderabad Observatory for observer location
-#@301 -> center of the Moon for observer location
-#-153 -> chandrayaan2 id number
-#for more information refer https://ssd.jpl.nasa.gov/?horizons
-#for more information about the horizons class refer https://astroquery.readthedocs.io/en/latest/api/astroquery.jplhorizons.HorizonsClass.html#astroquery.jplhorizons.HorizonsClass
-
-#created by b45k4r
-
 from astroquery.jplhorizons import Horizons
 from time import gmtime, strftime
 import sys
 from datetime import datetime, timedelta
-t = datetime.today() + timedelta(seconds=60)
-b = str(t)[:-10]
-d = datetime.today() - timedelta(seconds=60)
-a = str(d)[:-10]
+from datetime import datetime
+from dateutil import tz
+
+#t = datetime.today() + timedelta(seconds=60)
+#print t
+
+#b = str(t)[:-10]
+#d = datetime.today() - timedelta(seconds=60)
+#a = str(d)[:-10]
 
 #print 'a',a
 #print 'b',b
+
+
+from_zone = tz.tzlocal()
+to_zone = tz.tzutc()
+
+
+utc = datetime.utcnow() + timedelta(seconds=60)
+
+b = str(utc)[:-10]
+utcd = datetime.utcnow() - timedelta(seconds=60)
+a = str(utcd)[:-10]
+
+print 'current date:',datetime.today()
 
 def stock():
 	
@@ -36,8 +45,8 @@ def stock():
 	#for i in range(len(eph)):
 	#print eph[s][0][0]
 	i = 2
-	print eph[s][i][0][5:]
-	print 'distance wrt earth:',eph[s][i][1],'A.U / ',eph[s][i][1]*1.496e+8,'km \n'  
+	#print eph[s][i][0][5:]
+	print 'distance wrt earth:',eph[s][i][1],'A.U / ',eph[s][i][1]*149597870.691,'km \n'  
 		#print 'distance wrt observer: ',eph[s][i][1]*1.496e+8,'km'
 		#print 'distance wrt moon     :',eph1[s][i][2] ,'A.U / ',eph1[s][i][2] *1.496e+8,'km'  
 		#print 'distance wrt sun     :',eph[s][i][2] *1.496e+8,'km' 
@@ -49,7 +58,7 @@ def stock():
 	#for i in range(len(eph1)):
 		#print eph[s][0][0]
 	#print eph1[s][i][0][5:]
-	print 'distance wrt moon:',eph1[s][i][1],'A.U / ',eph1[s][i][1]*1.496e+8,'km \n'  
+	print 'distance wrt moon:',eph1[s][i][1],'A.U / ',eph1[s][i][1]*149597870.691,'km \n'  
 		#print 'distance wrt observer: ',eph[s][i][1]*1.496e+8,'km'
 		#print 'distance wrt moon     :',eph1[s][i][2] ,'A.U / ',eph1[s][i][2] *1.496e+8,'km'  
 		#print 'distance wrt sun     :',eph[s][i][2] *1.496e+8,'km' 
