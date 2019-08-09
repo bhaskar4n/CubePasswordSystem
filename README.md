@@ -8,6 +8,7 @@ for more information about the horizons class refer</br> https://astroquery.read
 
 requirements: astroquery https://github.com/astropy/astroquery</br>
 
+<img src = "https://github.com/bhaskar4n/horizons/blob/master/ch2.png"/>
 
 ```
 baskar@baskar-VPCEH28FN:~$ python ch.py
@@ -26,6 +27,6 @@ distance wrt moon: 0.00273557824529 A.U /  409242.505495 km
 velocity wrt moon: 2.17265 km/s 
 
 
-<img src = "https://github.com/bhaskar4n/horizons/blob/master/ch2.png"/>
+
 
 
