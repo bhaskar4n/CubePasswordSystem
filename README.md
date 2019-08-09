@@ -8,6 +8,8 @@ for more information about the horizons class refer</br> https://astroquery.read
 
 requirements: astroquery https://github.com/astropy/astroquery</br>
 
+<img src = "https://github.com/bhaskar4n/horizons/blob/master/ch22.pn"/>
+
 <img src = "https://github.com/bhaskar4n/horizons/blob/master/ch2.png"/>
 
 ```
