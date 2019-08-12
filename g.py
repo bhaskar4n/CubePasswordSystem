@@ -14,7 +14,7 @@ chand = []
 moon = []
 #print vec
 s = ['datetime_str','x','y','z','vx','vy','vz']
-s1 = ['datetime_str','x','y','z','vx','vy','vz']
+#s1 = ['datetime_str','x','y','z','vx','vy','vz']
 
 print 'processing....'
 for i in range(len(vec)):
@@ -23,7 +23,7 @@ for i in range(len(vec)):
      #js = json.dumps(d)
 
 for i in range(len(vec1)):
-    d=dict(date = vec1[s1][i][0], mx = vec1[s1][i][1], my = vec1[s1][i][2],mz = vec1[s1][i][3],mvx = vec1[s1][i][4],mvy = vec1[s1][i][5],mvz = vec1[s1][i][6])
+    d=dict(date = vec1[s][i][0], mx = vec1[s][i][1], my = vec1[s][i][2],mz = vec1[s][i][3],mvx = vec1[s][i][4],mvy = vec1[s][i][5],mvz = vec1[s][i][6])
     moon.append(d)
      #js = json.dumps(d)
 
