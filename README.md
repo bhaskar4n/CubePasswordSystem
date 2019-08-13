@@ -8,6 +8,8 @@ for more information about the horizons class refer</br> https://astroquery.read
 
 requirements: astroquery https://github.com/astropy/astroquery</br>
 
+data available from 23.07.2019 to 15.08.2019
+
 <img src = "https://github.com/bhaskar4n/horizons/blob/master/ch1.png"/>
 
 <img src = "https://github.com/bhaskar4n/horizons/blob/master/ch.png"/>
