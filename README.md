@@ -11,7 +11,7 @@ for more information about the horizons class refer</br> https://astroquery.read
 requirements: astroquery,dash,plotly</br>
 astroquery - collect data from jpl horizons system</br>
 dash & plotly - for graphing...</br>
-data available from 23.07.2019 to 15.08.2019
+data available from 23.07.2019 to 21.08.2019
 
 moon11.json -> contains moon vectors data(X,Y,Z, VX,VY,VZ)</br>
 chandrayaan2.json -> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br>
