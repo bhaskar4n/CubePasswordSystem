@@ -15,7 +15,7 @@ data available from 23.07.2019 to 21.08.2019
 
 moon11.json -> contains moon vectors data(X,Y,Z, VX,VY,VZ)</br>
 chandrayaan2.json -> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br>
-g.py -> used to collect data from jpl horizons system. 
+g.py -> used to collect data from jpl horizons system. </br>
 ch2.py -> main script
 
 <img src = "https://github.com/bhaskar4n/horizons/blob/master/c3d.png"/>
