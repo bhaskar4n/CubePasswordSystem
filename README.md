@@ -17,9 +17,9 @@ moon11.json -> contains moon vectors data(X,Y,Z, VX,VY,VZ)</br>
 chandrayaan2.json -> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br>
 g.py -> used to collect data from jpl horizons system. 
 
-<img src = "https://github.com/bhaskar4n/horizons/blob/master/ch3d"/>
+<img src = "https://github.com/bhaskar4n/horizons/blob/master/c3d"/>
 
-<img src = "https://github.com/bhaskar4n/horizons/blob/master/ch3d1.png"/>
+<img src = "https://github.com/bhaskar4n/horizons/blob/master/c3d1.png"/>
 
 
 
