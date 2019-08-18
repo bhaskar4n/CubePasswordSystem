@@ -10,7 +10,7 @@ dash & plotly - for graphing...</br>
 data available from 23.07.2019 to 20.08.2019
 
 moon11.json -> contains moon vectors data(X,Y,Z, VX,VY,VZ)</br>
-chandrayaan_geocentric.json -> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br>
+chandrayaan2_geocentric.json -> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br>
 lunar.json-> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br> 
 g.py -> used to collect data from jpl horizons system. </br>
 ch2.py -> main script
