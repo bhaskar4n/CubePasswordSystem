@@ -5,7 +5,7 @@ for more information refer https://ssd.jpl.nasa.gov/?horizons</br>
 for more information about the horizons class refer</br> https://astroquery.readthedocs.io/en/latest/api/astroquery.jplhorizons.HorizonsClass.html#astroquery.jplhorizons.HorizonsClass
 
 requirements: astroquery,dash,plotly</br>
-astroquery - collect data from jpl horizons system</br>
+astroquery - for collecting data from jpl horizons system</br>
 dash & plotly - for graphing...</br>
 data available from 23.07.2019 to 20.08.2019
 
