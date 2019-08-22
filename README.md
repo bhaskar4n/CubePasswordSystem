@@ -4,14 +4,14 @@ horizons
 for more information refer https://ssd.jpl.nasa.gov/?horizons</br>
 for more information about the horizons class refer</br> https://astroquery.readthedocs.io/en/latest/api/astroquery.jplhorizons.HorizonsClass.html#astroquery.jplhorizons.HorizonsClass
 
-requirements: astroquery,dash,plotly</br>
+requirements:</br> astroquery,dash,plotly</br>
 astroquery - for collecting data from jpl horizons system</br>
 dash & plotly - for graphing...</br>
 data available from 23.07.2019 to 20.08.2019
 
-moon11.json -> contains moon vectors data(X,Y,Z, VX,VY,VZ)</br>
-chandrayaan2_geocentric.json -> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br>
-lunar.json-> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br> 
+moon15.json -> contains moon vectors data(X,Y,Z, VX,VY,VZ)</br>
+chandrayaan2_geo3.json -> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br>
+lunar5.json-> contains chandrayaan2 vectors data(X,Y,Z, VX,VY,VZ)</br> 
 g.py -> used to collect data from jpl horizons system. </br>
 ch2.py -> main script
 
