@@ -17,7 +17,7 @@ ch2.py -> main script
 
 <img src = "https://github.com/bhaskar4n/horizons/blob/master/geo.png"/>
 <img src = "https://github.com/bhaskar4n/horizons/blob/master/moon_body_center.png"/>
-<img src = "https://github.com/bhaskar4n/horizons/blob/master/moon_body_center.png"/>
+<img src = "https://github.com/bhaskar4n/horizons/blob/master/moon_body_center_1.png"/>
 
 
 
